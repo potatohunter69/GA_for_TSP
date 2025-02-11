@@ -1,7 +1,25 @@
-# ai-assignment
+# Ai assignment
 
-hi test2
+## Authors
 
+- Ludvig Svensson
+- Noufa Haneefa
+- Sami Noroozi
+- Viktor Hellgreen
+- Raphael Camblong
+
+## Results
+For more details on the implementation, testing, and comparisons, check the Jupyter notebooks:
+- [tsp.ipynb](src/tsp.ipynb): Explanation of the TSP and GA implementation.
+- [st70_comparison.ipynb](tests/st70_comparison.ipynb): Comparison of the algorithm's performance on the st70 dataset.
+- [original_vs_final_GA.ipynb](tests/original_vs_final_GA.ipynb): Comparison between the initial and final versions of the GA.
+- [crossoverTest.ipynb](tests/crossoverTest.ipynb): Tests for the crossover function in the GA.
+
+# Run
+   To run a sample program of the ga TSP algorithm, run the following command:
+   ```bash
+   cd src && python3 main.py
+   ```
 # Installation
 
 ## Python Virtual Environment Setup Guide
@@ -40,8 +58,14 @@ Quick steps to create, activate, and manage Python virtual environments (`venv`)
    ```bash
    deactivate
 
+# Results
 
-Dependencies:
-Matplotlib --> Command = pip install matplotlib
-Numpy --> Command = pip install numpy
-# GA_for_TSP
+![comparaison](./docs/comparaison.png "comparaison")
+![param_tuning](./docs/param_tuning.png "param_tuning")
+
+## Exemple
+
+<p float="left">
+  <img src="./docs/50_cities_path.png" alt="50 cities path" width="50%" />
+  <img src="./docs/500_cities_path.png" alt="500 cities path" width="50%" />
+</p>
